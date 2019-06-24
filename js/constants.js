@@ -1,0 +1,4 @@
+const CONTAINER_WIDTH_HEIGHT = 650;
+const ANT_WIDTH = 30;
+const ANT_HEIGHT = 30;
+const DIRECTION = 2;

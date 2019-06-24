@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ant Smasher</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+  <div class="container" id="container1">Smasher
+    <div id="scoreBoard"></div>
+  </div>
+  <script src="js/constants.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    new MakeAnimation(
+      'container1', //instance
+      10, //ball count
+      100, //speed
+    ).init();
+  </script>
+</body>
+
+</html>
